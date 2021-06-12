@@ -18,7 +18,7 @@ import java.util.List;
 //@RequiredArgsConstructor
 public class BasicItemController {
 
-    private final ItemRepository itemRepository;
+    private final ItemRepository itemRepository; // git test !!!!
 
     /**
      * @Autowired : BasicItemController Component 생성 및 BasicItemController 생성자 호출 시 자동으로 Autowired
