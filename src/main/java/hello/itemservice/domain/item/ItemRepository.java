@@ -11,7 +11,7 @@ import java.util.Map;
 public class ItemRepository {
 
     private static final Map<Long, Item> store = new HashMap<>();   //static
-    private static long sequence = 0L;                              //static
+    private static long sequence = 0L;                              //static 1차
 
 
     public Item save(Item item){
